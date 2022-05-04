@@ -1,5 +1,5 @@
 import Head from "next/head";
-import {Header} from "../components/Header";
+import Header from "../components/Header";
 import Navbar from "../components/Navbar";
 import Movies from "../components/Movies";
 import requests from "../utils/requests";

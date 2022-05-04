@@ -9,7 +9,7 @@ import {
 	SearchIcon,
 	UserIcon,
 } from "@heroicons/react/outline";
-export const Header = () => {
+function Header() {
 	return (
 		<header className="flex flex-col sm:flex-row m-5 justify-between items-center h-auto">
 			{/* Left Header */}
@@ -25,4 +25,6 @@ export const Header = () => {
 			<Image className="object-contain" src={logo} width={200} height={200} />
 		</header>
 	);
-};
+}
+
+export default Header;
